@@ -13,17 +13,6 @@ public class Todo {
 
     public Todo() {}
 
-    public Todo(String content, Boolean completed) {
-        this.content = content;
-        this.completed = completed;
-    }
-
-    public Todo(Integer id, String content, Boolean completed) {
-        this.id = id;
-        this.content = content;
-        this.completed = completed;
-    }
-
     public Integer getId() {
         return id;
     }
